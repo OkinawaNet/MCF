@@ -1,4 +1,4 @@
-## Схема:
+## Схема v1.0.0
 ### Event Storming
 ![Event Storming](https://raw.githubusercontent.com/OkinawaNet/MCF/main/images/hw_1/ES.png)
 
