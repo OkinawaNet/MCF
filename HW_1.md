@@ -6,5 +6,6 @@
 
 ### Модель данных
 ![Data Model](images/hw_1/DM.png)
-### Сервисы
-![Services](images/hw_0/Services.png)
+
+### Коммуникации 
+![Communications](images/hw_1/Communications.png)
