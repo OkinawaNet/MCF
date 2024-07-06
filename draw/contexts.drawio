@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-06T00:55:44.985Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="7xAkc8XRrRzo75s30HYX" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-06T01:22:17.886Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="QeY1OGiDKwE7seVZkFA9" version="24.6.4" type="github">
   <diagram name="Страница — 1" id="SNesUV2g55XFbluxKNim">
-    <mxGraphModel dx="4841" dy="2902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4522" dy="2729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,7 +43,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bGFSSM1Bwl2eTKHWFs73-115" value="BE: Withdraw" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#FFB570;" vertex="1" connectable="0" parent="bGFSSM1Bwl2eTKHWFs73-114">
+        <mxCell id="bGFSSM1Bwl2eTKHWFs73-115" value="BE: CreditToWorker" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#FFB570;" vertex="1" connectable="0" parent="bGFSSM1Bwl2eTKHWFs73-114">
           <mxGeometry x="-0.0899" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -113,6 +113,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bGFSSM1Bwl2eTKHWFs73-130" value="BE: NewOrderStatus" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#FFB570;" vertex="1" connectable="0" parent="bGFSSM1Bwl2eTKHWFs73-129">
+          <mxGeometry x="-0.0899" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bGFSSM1Bwl2eTKHWFs73-133" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#FFB570;strokeWidth=2;align=center;verticalAlign=middle;arcSize=12;fontFamily=Helvetica;fontSize=13;fontColor=#FFB570;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.306;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-130" y="96" as="sourcePoint" />
+            <mxPoint x="329" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-130" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bGFSSM1Bwl2eTKHWFs73-134" value="BE: DebitFromClient" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#FFB570;" vertex="1" connectable="0" parent="bGFSSM1Bwl2eTKHWFs73-133">
+          <mxGeometry x="-0.0899" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bGFSSM1Bwl2eTKHWFs73-135" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#FFB570;strokeWidth=2;align=center;verticalAlign=middle;arcSize=12;fontFamily=Helvetica;fontSize=13;fontColor=#FFB570;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.306;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-130" y="56" as="sourcePoint" />
+            <mxPoint x="329" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-130" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bGFSSM1Bwl2eTKHWFs73-136" value="BE: DebitFromWorker" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#FFB570;" vertex="1" connectable="0" parent="bGFSSM1Bwl2eTKHWFs73-135">
           <mxGeometry x="-0.0899" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
