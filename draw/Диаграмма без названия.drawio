@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-07-08T18:49:26.073Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="pHWTi7QV1hnTBf8VIFLn" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-08T18:50:28.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="JkMXa57JoEIdmx2-5sTX" version="24.6.4" type="github">
   <diagram name="Страница — 1" id="Vhi82V8bUWfdWD9RBT1F">
-    <mxGraphModel dx="5751" dy="3398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4522" dy="2729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="N3wCrEwUKb1CmvZfM-gG-3" value="Accounting" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16;fontColor=default;align=left;spacing=3.8;verticalAlign=top;strokeColor=#000000;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=none;strokeWidth=NaN;lucidId=yf5P64~TPSbk;perimeterSpacing=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="760" width="520" height="495" as="geometry" />
+          <mxGeometry x="70" y="760" width="560" height="495" as="geometry" />
         </mxCell>
         <mxCell id="N3wCrEwUKb1CmvZfM-gG-4" value="User" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;spacing=3.8;strokeColor=#00CC00;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=none;strokeWidth=1;lucidId=dg5PYhCH7-BC;perimeterSpacing=2;fontColor=#00CC00;" parent="1" vertex="1">
           <mxGeometry x="250" y="885.03" width="81" height="45" as="geometry" />
