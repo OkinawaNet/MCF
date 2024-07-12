@@ -42,3 +42,21 @@ Event Storming
 ------
 
 ![Event Storming](https://raw.githubusercontent.com/OkinawaNet/MCF/main/images/hw_2/ES.png)
+
+Характеристики
+------
+
+| Характеристики | Источник |
+|------------|------------|
+| scalability, securability | [US-081] Мы ожидаем 1к заявок в день от рандомных котов, также, судя по отзывам, наши конкуренты могут попытаться нас заддосить в этом месте. Они так делали уже несколько раз с другими компаниями, после чего компании закрывались с позором. |
+| agility, testability, deployability | Низкий ТТМ |
+| modifiability, testability, deployability | Для бизнеса критично проверять новые гипотезы по отсеву котов и изменять уже существующие с максимальной скоростью и надёжностью.|
+| agility, testability, deployability, scalability, availability, fault tolerance | Конкурентное преимущество (найм + матчинг) |
+| availability, continuity, reliability, еxtensibility, modifiability, maintainability, supportability, readability, accessibility, security, usability | 2 core-поддомена (найм + управление заказами) являются конкурентным преимуществом |
+| maintainability, readability, supportability | 2 supporting-поддомена |
+
+Выбор архитектурного стиля
+------
+Выделим наиболее важные для проекта характеристики и обозначим их на таблице архитектурных стилей. Наилучшим образом нашим требованиям удовлетворяет микросервисная архитектура.
+***
+![Arch styles](images/hw_2/archs.png)
