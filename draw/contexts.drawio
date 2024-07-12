@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T02:05:19.570Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="KrYlnTjxDgUo0PmHbw5H" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-12T02:05:58.512Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="y2gBFbkIrhUe5fELBEFY" version="24.6.5" type="github">
   <diagram name="Страница — 1" id="SNesUV2g55XFbluxKNim">
-    <mxGraphModel dx="5239" dy="3119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3088" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,14 +19,11 @@
         <mxCell id="bGFSSM1Bwl2eTKHWFs73-107" value="Quality control" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=16.7;align=left;spacing=3.8;verticalAlign=top;strokeColor=#000000;rounded=1;absoluteArcSize=1;arcSize=9;fillColor=none;strokeWidth=NaN;lucidId=uw4PtmyCs-oK;" parent="1" vertex="1">
           <mxGeometry x="-616" y="670" width="372" height="217" as="geometry" />
         </mxCell>
-        <mxCell id="bGFSSM1Bwl2eTKHWFs73-110" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#00CC00;strokeWidth=2;align=center;verticalAlign=middle;arcSize=12;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;exitX=1.001;exitY=0.475;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bGFSSM1Bwl2eTKHWFs73-104" target="bGFSSM1Bwl2eTKHWFs73-105" edge="1">
+        <mxCell id="bGFSSM1Bwl2eTKHWFs73-110" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#00CC00;strokeWidth=2;align=center;verticalAlign=middle;arcSize=12;fontFamily=Helvetica;fontSize=13;fontColor=default;labelBackgroundColor=default;edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;exitX=1;exitY=0.344;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="bGFSSM1Bwl2eTKHWFs73-104" target="bGFSSM1Bwl2eTKHWFs73-105" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1150" as="sourcePoint" />
             <mxPoint x="-940" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-940" y="133" />
-              <mxPoint x="-940" y="133" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="bGFSSM1Bwl2eTKHWFs73-111" value="CUD: Worker" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#00CC00;" parent="bGFSSM1Bwl2eTKHWFs73-110" vertex="1" connectable="0">
