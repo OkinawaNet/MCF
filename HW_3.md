@@ -43,3 +43,4 @@
 ------
 
 agility, deployability и testability исключают монолит.
+
