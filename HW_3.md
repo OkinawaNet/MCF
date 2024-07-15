@@ -36,7 +36,7 @@
 | maintainability, reliability | Общий консёрн админов и разрабов |
 | Consistency | Хранение данных о фин. операциях |
 
-![Характеристики](images/hw_3/BC_chars.png)
+![Характеристики](https://raw.githubusercontent.com/OkinawaNet/MCF/main/images/hw_3/BC_chars.png)
 
 
 Выбор архитектуры
