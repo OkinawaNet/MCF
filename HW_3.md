@@ -34,6 +34,7 @@
 | availability, continuity, reliability, еxtensibility, modifiability, maintainability, supportability, readability, accessibility, security, usability | 2 core-поддомена (найм + матчинг) являются конкурентным преимуществом |
 | maintainability, readability, supportability | 3 supporting-поддомена |
 | maintainability, reliability | Общий консёрн админов и разрабов |
+| deployability | Консёрн топ-менеджеров |
 | Consistency | Хранение данных о фин. операциях |
 
 ![Характеристики](https://raw.githubusercontent.com/OkinawaNet/MCF/main/images/hw_3/BC_chars.png)
@@ -42,5 +43,36 @@
 Выбор архитектуры
 ------
 
-agility, deployability и testability исключают монолит.
+agility, deployability и testability исключают монолит. Определим, из каких сервисов будет состоять система.
+
+### 1 Выплаты воркерам
+
+Есть ограничение на соблюдение CatFinComplience. Придется делать отдельным сервисом.
+
+### 2 Оплата заказов
+
+Есть ограничение на соблюдение CatFinComplience. Логика хотя и выглядит сходно с сервисом выплат воркерам, процесс другой и не стоит сливать с ним. Придется делать отдельным сервисом.
+
+### 3 Найм воркеров
+
+Релизный цикл, согласно требованию топ-менеджеров - 1 неделя, против месячного цикла у других конекстов. Придется вынести в отдельный сервис.
+
+### 4 Тотализатор
+
+Тотализатор должен быть максимально скрыт, значит отдельынй сервис.
+
+### 5 Матчинг воркеров
+
+Core - поддомен. Должны быть availability, continuity, reliability, еxtensibility, modifiability, maintainability, supportability, readability, accessibility, security, usability, чего нет в оставшихся поддоменах.
+
+Конкурентное преимущество. Следовательно, вероятнее всего, будет собственный релизный цикл, несмотря на то, что сейчас он общий для всех, кроме найма.
+Выносим в отдельный сервис.
+
+### 6 Управление заказами и контроль качества
+
+Можно объединить с оставшимся контекстом "контроль качества", но:
+- Это другой поддомен
+- Разный Scalability
+
+Поэтому выносим в отдельные сервисы
 
