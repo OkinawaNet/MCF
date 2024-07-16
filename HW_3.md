@@ -173,3 +173,6 @@ Core - поддомен. Должны быть availability, continuity, reliabi
 
 ### Выплаты воркерам, оплата заказов:
 - анализ метрик coupling и cohesion.
+
+Выбор архитектуры
+------
