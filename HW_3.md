@@ -121,4 +121,11 @@ Core - поддомен. Должны быть availability, continuity, reliabi
 Требование его спрятать - делаем отдельную реляционную БД.
 
 
+Выбор вида коммуникаций
+------
 
+### Event Storming
+![Event Storming](https://raw.githubusercontent.com/OkinawaNet/MCF/main/images/hw_2/ES.png)
+
+### Data Model
+![Data Model](images/hw_3/DM.png)
