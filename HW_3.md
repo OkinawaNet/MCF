@@ -174,5 +174,8 @@ Core - поддомен. Должны быть availability, continuity, reliabi
 ### Выплаты воркерам, оплата заказов:
 - анализ метрик coupling и cohesion.
 
-Выбор архитектуры
+ADR
 ------
+
+[ADR-001: Изоляция сервиса найма.](architecture_decisions/application/hiring/adr-001-isolate-hiring.md)
+
