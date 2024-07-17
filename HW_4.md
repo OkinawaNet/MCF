@@ -27,3 +27,6 @@
 
 ### Сервисы
 ![Communications](images/hw_3/communications.png)
+
+План работ
+------
